@@ -15,7 +15,8 @@ Vagrant::Config.run do |config|
 
   config.vm.provision :shell, :path => "build.sh"
 
+  config.vm.forward_port 22,5022
   config.vm.forward_port 80,5080
   config.vm.forward_port 443,5443
-  config.vm.forward_port 22,5022
+
 end
