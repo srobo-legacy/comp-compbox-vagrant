@@ -1,7 +1,7 @@
 #CompBox Vagrant
 
-CompBox is the new [Student Robotics](http://studentrobotics.org) server. This
-is a vagrant configuration that will very easily go from scratch to a vagrantbox.
+CompBox is the [Student Robotics](http://studentrobotics.org) copmetition server.
+This is a vagrant configuration that will very easily go from scratch to a vagrantbox.
 
 ##Setup
 
