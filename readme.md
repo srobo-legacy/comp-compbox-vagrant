@@ -23,6 +23,7 @@ talk to vagrant.
 This always fetches the latest stuff from puppet when the box
 is built, and also does a bunch of other necessary configuration.
 
-The virtual machine is networked into your computer via NAT. Every port on
-the machine is mapped to 5000 + actual port (e.g. 5080,5443,5022). This
-allows you to ssh in
+The virtual machine is networked into your computer via NAT.
+The useful ports on the machine are mapped to 5000 + actual port
+(e.g. 5022,5080,5443,13080).
+This allows you to ssh in or to view other services on the machine.
