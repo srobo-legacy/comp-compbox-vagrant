@@ -1,6 +1,6 @@
 #!/bin/bash
 yum -y install git
-git clone git://github.com/PeterJCLaw/compbox-secrets.git /srv/secrets
+git clone git://srobo.org/comp/compbox-secrets.git /srv/secrets
 rm -rf /etc/puppet
 git clone --recurse-submodules git://srobo.org/comp/compbox-puppet.git /etc/puppet
 puppet apply /etc/puppet/manifests/compbox-dev.pp
